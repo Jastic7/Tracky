@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		55EBEB372426908E00BEC9DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB362426908E00BEC9DA /* AppDelegate.swift */; };
 		55EBEB392426908E00BEC9DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB382426908E00BEC9DA /* SceneDelegate.swift */; };
-		55EBEB3B2426908E00BEC9DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB3A2426908E00BEC9DA /* ViewController.swift */; };
 		55EBEB3E2426908E00BEC9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EBEB3C2426908E00BEC9DA /* Main.storyboard */; };
 		55EBEB402426909200BEC9DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EBEB3F2426909200BEC9DA /* Assets.xcassets */; };
 		55EBEB432426909200BEC9DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EBEB412426909200BEC9DA /* LaunchScreen.storyboard */; };
-		55EBEB4E2426909200BEC9DA /* TrackyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB4D2426909200BEC9DA /* TrackyTests.swift */; };
+		55EBEB5B24269B0700BEC9DA /* NoSubscriptionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55EBEB5A24269B0700BEC9DA /* NoSubscriptionsView.xib */; };
+		55EBEB5D2426BDFE00BEC9DA /* NoSubscriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB5C2426BDFE00BEC9DA /* NoSubscriptionsView.swift */; };
+		55EBEB5F2426BFAB00BEC9DA /* SubscriptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB5E2426BFAB00BEC9DA /* SubscriptionsViewController.swift */; };
+		55EBEB612426C36000BEC9DA /* UIView+NibLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB602426C36000BEC9DA /* UIView+NibLoading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +32,16 @@
 		55EBEB332426908E00BEC9DA /* Tracky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EBEB362426908E00BEC9DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55EBEB382426908E00BEC9DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		55EBEB3A2426908E00BEC9DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55EBEB3D2426908E00BEC9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55EBEB3F2426909200BEC9DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55EBEB422426909200BEC9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55EBEB442426909200BEC9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55EBEB492426909200BEC9DA /* TrackyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55EBEB4D2426909200BEC9DA /* TrackyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackyTests.swift; sourceTree = "<group>"; };
 		55EBEB4F2426909200BEC9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55EBEB5A24269B0700BEC9DA /* NoSubscriptionsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoSubscriptionsView.xib; sourceTree = "<group>"; };
+		55EBEB5C2426BDFE00BEC9DA /* NoSubscriptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSubscriptionsView.swift; sourceTree = "<group>"; };
+		55EBEB5E2426BFAB00BEC9DA /* SubscriptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsViewController.swift; sourceTree = "<group>"; };
+		55EBEB602426C36000BEC9DA /* UIView+NibLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoading.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55A540082426CCAD00C9079B /* NoSubscriptions */ = {
+			isa = PBXGroup;
+			children = (
+				55EBEB5C2426BDFE00BEC9DA /* NoSubscriptionsView.swift */,
+				55EBEB5A24269B0700BEC9DA /* NoSubscriptionsView.xib */,
+			);
+			path = NoSubscriptions;
+			sourceTree = "<group>";
+		};
 		55EBEB2A2426908E00BEC9DA = {
 			isa = PBXGroup;
 			children = (
@@ -79,10 +92,12 @@
 		55EBEB352426908E00BEC9DA /* Tracky */ = {
 			isa = PBXGroup;
 			children = (
+				55EBEB3C2426908E00BEC9DA /* Main.storyboard */,
+				55EBEB5E2426BFAB00BEC9DA /* SubscriptionsViewController.swift */,
+				55A540082426CCAD00C9079B /* NoSubscriptions */,
+				55EBEB602426C36000BEC9DA /* UIView+NibLoading.swift */,
 				55EBEB362426908E00BEC9DA /* AppDelegate.swift */,
 				55EBEB382426908E00BEC9DA /* SceneDelegate.swift */,
-				55EBEB3A2426908E00BEC9DA /* ViewController.swift */,
-				55EBEB3C2426908E00BEC9DA /* Main.storyboard */,
 				55EBEB3F2426909200BEC9DA /* Assets.xcassets */,
 				55EBEB412426909200BEC9DA /* LaunchScreen.storyboard */,
 				55EBEB442426909200BEC9DA /* Info.plist */,
@@ -93,7 +108,6 @@
 		55EBEB4C2426909200BEC9DA /* TrackyTests */ = {
 			isa = PBXGroup;
 			children = (
-				55EBEB4D2426909200BEC9DA /* TrackyTests.swift */,
 				55EBEB4F2426909200BEC9DA /* Info.plist */,
 			);
 			path = TrackyTests;
@@ -152,6 +166,7 @@
 					};
 					55EBEB482426909200BEC9DA = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 						TestTargetID = 55EBEB322426908E00BEC9DA;
 					};
 				};
@@ -180,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55EBEB5B24269B0700BEC9DA /* NoSubscriptionsView.xib in Resources */,
 				55EBEB432426909200BEC9DA /* LaunchScreen.storyboard in Resources */,
 				55EBEB402426909200BEC9DA /* Assets.xcassets in Resources */,
 				55EBEB3E2426908E00BEC9DA /* Main.storyboard in Resources */,
@@ -200,7 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55EBEB3B2426908E00BEC9DA /* ViewController.swift in Sources */,
+				55EBEB5D2426BDFE00BEC9DA /* NoSubscriptionsView.swift in Sources */,
+				55EBEB612426C36000BEC9DA /* UIView+NibLoading.swift in Sources */,
+				55EBEB5F2426BFAB00BEC9DA /* SubscriptionsViewController.swift in Sources */,
 				55EBEB372426908E00BEC9DA /* AppDelegate.swift in Sources */,
 				55EBEB392426908E00BEC9DA /* SceneDelegate.swift in Sources */,
 			);
@@ -210,7 +228,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55EBEB4E2426909200BEC9DA /* TrackyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +416,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TrackyTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -409,6 +427,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jastic7.TrackyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tracky.app/Tracky";
@@ -420,6 +439,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TrackyTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
