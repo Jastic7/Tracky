@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		553DEAD12426DEB9009605F0 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553DEAD02426DEB9009605F0 /* PrimaryButton.swift */; };
+		553DEAD72427DA7D009605F0 /* UIColor+StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553DEAD62427DA7D009605F0 /* UIColor+StyleGuide.swift */; };
 		55EBEB372426908E00BEC9DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB362426908E00BEC9DA /* AppDelegate.swift */; };
 		55EBEB392426908E00BEC9DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBEB382426908E00BEC9DA /* SceneDelegate.swift */; };
 		55EBEB3E2426908E00BEC9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EBEB3C2426908E00BEC9DA /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		553DEAD02426DEB9009605F0 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		553DEAD62427DA7D009605F0 /* UIColor+StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+StyleGuide.swift"; sourceTree = "<group>"; };
 		55EBEB332426908E00BEC9DA /* Tracky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EBEB362426908E00BEC9DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55EBEB382426908E00BEC9DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				55EBEB3C2426908E00BEC9DA /* Main.storyboard */,
 				55EBEB5E2426BFAB00BEC9DA /* SubscriptionsViewController.swift */,
 				55A540082426CCAD00C9079B /* NoSubscriptions */,
+				553DEAD02426DEB9009605F0 /* PrimaryButton.swift */,
+				553DEAD62427DA7D009605F0 /* UIColor+StyleGuide.swift */,
 				55EBEB602426C36000BEC9DA /* UIView+NibLoading.swift */,
 				55EBEB362426908E00BEC9DA /* AppDelegate.swift */,
 				55EBEB382426908E00BEC9DA /* SceneDelegate.swift */,
@@ -216,10 +222,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553DEAD12426DEB9009605F0 /* PrimaryButton.swift in Sources */,
 				55EBEB5D2426BDFE00BEC9DA /* NoSubscriptionsView.swift in Sources */,
 				55EBEB612426C36000BEC9DA /* UIView+NibLoading.swift in Sources */,
 				55EBEB5F2426BFAB00BEC9DA /* SubscriptionsViewController.swift in Sources */,
 				55EBEB372426908E00BEC9DA /* AppDelegate.swift in Sources */,
+				553DEAD72427DA7D009605F0 /* UIColor+StyleGuide.swift in Sources */,
 				55EBEB392426908E00BEC9DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

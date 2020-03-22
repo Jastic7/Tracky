@@ -37,9 +37,11 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yjg-w9-fcr">
-                    <rect key="frame" x="139.5" y="816" width="135" height="30"/>
-                    <state key="normal" title="Create subscription"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yjg-w9-fcr" customClass="PrimaryButton" customModule="Tracky" customModuleProvider="target">
+                    <rect key="frame" x="44" y="812" width="326" height="34"/>
+                    <state key="normal" title="Create subscription">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
                     <connections>
                         <action selector="createSubscriptionDidTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="dXE-UD-5go"/>
                     </connections>
@@ -50,12 +52,12 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9Xz-7m-Pat" secondAttribute="trailing" constant="60" id="0KE-D5-mW0"/>
                 <constraint firstItem="9Xz-7m-Pat" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="7ea-id-nEe"/>
                 <constraint firstItem="9Xz-7m-Pat" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="60" id="Ayb-5S-AK2"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Yjg-w9-fcr" secondAttribute="trailing" constant="16" id="BYo-l6-kLX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Yjg-w9-fcr" secondAttribute="trailing" constant="44" id="BYo-l6-kLX"/>
                 <constraint firstItem="Yjg-w9-fcr" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="CU7-Wi-FeV"/>
                 <constraint firstItem="9Xz-7m-Pat" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="KTB-vW-r5u"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Yjg-w9-fcr" secondAttribute="bottom" constant="16" id="ez3-ma-u7a"/>
                 <constraint firstItem="9Xz-7m-Pat" firstAttribute="top" secondItem="Hdc-Qe-N47" secondAttribute="bottom" constant="28" id="huz-xQ-hsT"/>
-                <constraint firstItem="Yjg-w9-fcr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="u9q-Ul-GUJ"/>
+                <constraint firstItem="Yjg-w9-fcr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="44" id="u9q-Ul-GUJ"/>
                 <constraint firstItem="Hdc-Qe-N47" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wTU-gg-KnE"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

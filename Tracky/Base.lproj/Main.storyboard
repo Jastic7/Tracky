@@ -12,8 +12,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8La-CA-zij" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0UI-QL-IzX">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="0UI-QL-IzX">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -25,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
-        <!--Subscriptions View Controller-->
+        <!--Subscriptions-->
         <scene sceneID="dGd-pg-PvD">
             <objects>
                 <viewController id="vWj-yu-7XO" customClass="SubscriptionsViewController" customModule="Tracky" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,7 +35,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="EM3-Wu-leb"/>
                     </view>
-                    <navigationItem key="navigationItem" id="KW4-VS-I6K"/>
+                    <navigationItem key="navigationItem" title="Subscriptions" id="KW4-VS-I6K"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tmb-xG-KGs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
